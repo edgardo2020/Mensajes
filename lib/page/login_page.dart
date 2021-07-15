@@ -85,8 +85,7 @@ class __FormState extends State<_Form> {
           BotonAzul(
             text: "Ingrese",
             onPressed: () {
-              print(passCtrl.text);
-              print(emailCtrl.text);
+              Navigator.pushReplacementNamed(context, 'usuarios');
             },
           )
           // CustomInput(),
